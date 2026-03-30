@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RC-600 Live UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <header class="panel header-panel">
+        <h1>Boss RC-600 Live Kontroll</h1>
+        <p>
+          Et raskt live-grensesnitt for patch-bytte, transport og track-status.
+        </p>
+      </header>
+
+      <section class="panel transport-panel">
+        <h2>Transport</h2>
+        <div class="button-row">
+          <button data-action="start">Start</button>
+          <button data-action="stop">Stop</button>
+          <button data-action="record">Rec</button>
+          <button data-action="undo">Undo</button>
+          <button data-action="redo">Redo</button>
+        </div>
+        <div class="tempo-wrap">
+          <label for="tempo">Tempo (BPM)</label>
+          <input id="tempo" type="number" min="30" max="240" value="120" />
+          <button id="tap-tempo">Tap Tempo</button>
+        </div>
+      </section>
+
+      <section class="panel patches-panel">
+        <h2>Live Set / Patches</h2>
+        <div class="patch-grid" id="patch-grid"></div>
+      </section>
+
+      <section class="panel tracks-panel">
+        <h2>Tracks</h2>
+        <div class="track-grid" id="track-grid"></div>
+      </section>
+
+      <section class="panel log-panel">
+        <h2>Status / MIDI-logg</h2>
+        <pre id="log"></pre>
+      </section>
+    </main>
+
+    <template id="track-template">
+      <article class="track-card">
+        <h3></h3>
+        <div class="track-controls">
+          <button data-track-action="rec">Rec/Overdub</button>
+          <button data-track-action="play">Play</button>
+          <button data-track-action="stop">Stop</button>
+          <button data-track-action="clear">Clear</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
