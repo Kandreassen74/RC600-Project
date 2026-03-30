@@ -1,0 +1,121 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 2433 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 48 790 Tm
+(PRAKTISK LÆRINGSGUIDE: BOSS RC-600 \(LIVEBRUK\)) Tj
+0 -15 Td () Tj
+0 -15 Td (1\) MÅL MED OPPSETTET) Tj
+0 -15 Td (Denne guiden er laget for øving og livebruk med Boss RC-600, med fokus på:) Tj
+0 -15 Td (• trygg og rask betjening under konsert) Tj
+0 -15 Td (• tydelig struktur for spor \(tracks\), rytme og låtdeler) Tj
+0 -15 Td (• repeterbare økter slik at du bygger muskelminne) Tj
+0 -15 Td () Tj
+0 -15 Td (2\) FORESLÅTT GRUNNOPPSETT PÅ RC-600) Tj
+0 -15 Td (• Track 1: Tromme/perkusjon-loop) Tj
+0 -15 Td (• Track 2: Basslinje) Tj
+0 -15 Td (• Track 3: Harmoni \(pads/akkorder\)) Tj
+0 -15 Td (• Track 4: Riff/komp) Tj
+0 -15 Td (• Track 5: Lead/one-shot) Tj
+0 -15 Td (• Track 6: FX/tekstur/overganger) Tj
+0 -15 Td () Tj
+0 -15 Td (Tips:) Tj
+0 -15 Td (• Hold samme funksjon per track i alle låter.) Tj
+0 -15 Td (• Gi patchene navn etter låt + del \(f.eks. "SongA_Intro"\).) Tj
+0 -15 Td (• Bruk lik farge-/nivålogikk på alle patcher.) Tj
+0 -15 Td () Tj
+0 -15 Td (3\) 4-UKERS ØVINGSPLAN) Tj
+0 -15 Td () Tj
+0 -15 Td (UKE 1 – KONTROLL OG TIMING) Tj
+0 -15 Td (• Mål: Kunne starte/stoppe/record uten å se ned lenge.) Tj
+0 -15 Td (• Økt A \(20 min\): Start/Stop/Undo/Redo i 80–100 BPM.) Tj
+0 -15 Td (• Økt B \(20 min\): Tap tempo i 4/4 og sjekk stabil BPM.) Tj
+0 -15 Td (• Økt C \(20 min\): Bytt mellom 3 patcher uten timing-brudd.) Tj
+0 -15 Td () Tj
+0 -15 Td (UKE 2 – LAYERING OG ARRANGEMENT) Tj
+0 -15 Td (• Mål: Bygge vers/refreng med 2–4 tracks.) Tj
+0 -15 Td (• Økt A: Spill inn tromme + bass med quantize.) Tj
+0 -15 Td (• Økt B: Legg harmoni og mut track raskt.) Tj
+0 -15 Td (• Økt C: Øv overgang vers -> refreng på cue.) Tj
+0 -15 Td () Tj
+0 -15 Td (UKE 3 – LIVEFLYT) Tj
+0 -15 Td (• Mål: Simulere låter fra start til slutt.) Tj
+0 -15 Td (• Økt A: 1 komplett låt, ingen stopp.) Tj
+0 -15 Td (• Økt B: 2 låter i serie med patch-bytte.) Tj
+0 -15 Td (• Økt C: Feilhåndtering \(bevisst feil + recovery\).) Tj
+0 -15 Td () Tj
+0 -15 Td (UKE 4 – SCENE-SIMULERING) Tj
+0 -15 Td (• Mål: Tåle press og holde stabil struktur.) Tj
+0 -15 Td (• Økt A: Spill stående med monitornivå lik scene.) Tj
+0 -15 Td (• Økt B: Øv med metronom av/på.) Tj
+0 -15 Td (• Økt C: 15-min mini-sett med logging etterpå.) Tj
+0 -15 Td () Tj
+0 -15 Td (4\) SJEKKLISTE FØR ØVING/LIVE) Tj
+0 -15 Td (• Riktig output-routing og nivå) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 1314 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 48 790 Tm
+(• Riktig patch-bank lastet) Tj
+0 -15 Td (• Tempo/rytme bekreftet) Tj
+0 -15 Td (• Expression/CTL-pedaler testet) Tj
+0 -15 Td (• Nødprosedyre: Stop All + tilbake til grunnpatch) Tj
+0 -15 Td () Tj
+0 -15 Td (5\) NØDPROSEDYRE \(HVIS NOE GÅR GALT LIVE\)) Tj
+0 -15 Td (1. Hold ro, hold tempo med fot eller metronom i øret.) Tj
+0 -15 Td (2. Stop problemtrack \(ikke stopp alt med en gang\).) Tj
+0 -15 Td (3. Kjør Undo hvis siste recording var feil.) Tj
+0 -15 Td (4. Hvis fortsatt feil: bytt til "sikker" patch og fortsett.) Tj
+0 -15 Td (5. Rebuild loop i neste musikalske vindu \(4 eller 8 takter\).) Tj
+0 -15 Td () Tj
+0 -15 Td (6\) HVORDAN BRUKE WEB-UI I DETTE REPOET) Tj
+0 -15 Td (• Bruk patch-knapper for raskt patch-skifte.) Tj
+0 -15 Td (• Bruk transport-panel for Start/Stop/Rec/Undo/Redo.) Tj
+0 -15 Td (• Bruk track-kort for Rec/Play/Stop/Clear per spor.) Tj
+0 -15 Td (• Se MIDI-logg for å bekrefte hvilke kommandoer som sendes.) Tj
+0 -15 Td () Tj
+0 -15 Td (7\) NESTE NIVÅ) Tj
+0 -15 Td (• Koble til Web MIDI \(`navigator.requestMIDIAccess`\).) Tj
+0 -15 Td (• Map eksakte CC/PC/SysEx mot ditt RC-600-oppsett.) Tj
+0 -15 Td (• Lagre settlister og låtprofiler i localStorage.) Tj
+0 -15 Td (• Legg til visuell feedback for active track/record state.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000002675 00000 n 
+0000002801 00000 n 
+0000004166 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+4292
+%%EOF

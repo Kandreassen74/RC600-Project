@@ -26,3 +26,13 @@ Gå til `http://localhost:8080`.
 2. Mapp knapper til riktig **CC/PC/SysEx** etter ditt RC-600 setup.
 3. Lagre flere live-sett i `localStorage`.
 4. Legg til MIDI feedback for track-status/LED-lignende visning.
+
+## Dokumentasjon (PDF)
+
+- Ferdig PDF-guide: `docs/RC600-praktisk-guide.pdf`
+- Kilde: `docs/rc600_praktisk_bruk.md`
+- Bygg på nytt PDF:
+
+```bash
+python3 scripts/build_pdf.py
+```
