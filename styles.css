@@ -1,0 +1,144 @@
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --panel: #161b22;
+  --panel-border: #30363d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --accent: #2f81f7;
+  --accent-2: #f78166;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(circle at top, #1f2630 0%, var(--bg) 55%);
+  color: var(--text);
+}
+
+.layout {
+  width: min(1200px, 94vw);
+  margin: 1.5rem auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.header-panel,
+.log-panel {
+  grid-column: span 12;
+}
+
+.transport-panel,
+.patches-panel,
+.tracks-panel {
+  grid-column: span 12;
+}
+
+@media (min-width: 900px) {
+  .transport-panel {
+    grid-column: span 4;
+  }
+
+  .patches-panel,
+  .tracks-panel {
+    grid-column: span 8;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.75rem;
+}
+
+p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.button-row,
+.track-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+button {
+  background: #21262d;
+  color: var(--text);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+}
+
+button.active {
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 1px var(--accent-2) inset;
+}
+
+.tempo-wrap {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 5rem;
+  background: #0d1117;
+  color: var(--text);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 0.45rem;
+}
+
+.patch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.5rem;
+}
+
+.patch-grid button {
+  text-align: left;
+}
+
+.track-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.track-card {
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  padding: 0.75rem;
+}
+
+#log {
+  margin: 0;
+  padding: 0.75rem;
+  max-height: 220px;
+  overflow: auto;
+  border-radius: 8px;
+  background: #0b0f14;
+  border: 1px solid var(--panel-border);
+  color: #9ee0ff;
+}
